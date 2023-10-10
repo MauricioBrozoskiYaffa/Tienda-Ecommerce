@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mountain Bikes Store - Carrito</title>
+    <link rel="stylesheet" href="fontawesome/fontawesome-free-6.4.2-web/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <aside>
+           <header>
+            <h1 class="logo">Mountain Bikes Store - Carrito</h1>
+           </header>
+           <nav>
+            <ul>
+                <li>
+                    <a class="button-menu button-volver" href="index.html"><i class="fa-solid fa-basket-shopping"></i>  
+                    </i>Seguir Comprando</a>
+                </li>
+               <li>
+                    <a class="button-menu button-carrito active" href="carrito.html"><i class="fa-solid fa-cart-shopping">   
+                    </i>Carrito <span class="numerito">0</span></a>
+                </li>
+            </ul>
+           </nav>
+           <footer>
+            <p class="texto-footer">© Mauricio Brozoski Yaffa 2023 - tienda online</p>
+           </footer>
+        </aside>
+        <main>
+            <h2 class="titulo-principal">Carrito</h2>
+            <div class="container-carrito">
+              <p id="carrito-vacio" class="carrito-vacio">Tu carrito esta vacio.</p>
+
+              <div id="carrito-productos" class="carrito-productos disableb">
+               
+              </div>
+
+              <div class="carrito-productos disableb">
+                
+              </div>
+
+              <div id="carrito-acciones" class="carrito-acciones disableb">
+                <div class="carrito-acciones-izquierda">
+                     <button class="carrito-acciones-vaciar">Vaciar Carrito</button>
+                </div>
+                <div class="carrito-acciones-derecha">
+                    <div class="carrito-acciones-total">
+                        <p>Total:</p>
+                        <p id="total">$1.200.000</p>
+                    </div>
+                    <button id="carrito-acciones-comprar" class="carrito-acciones-comprar">Comprar Ahora</button>
+                </div>
+              </div>
+              <p id="carrito-comprado" class="carrito-comprado disableb">Muchas gracias por tu compra.</p>
+            </div>
+        </main>
+       </div>
+
+       <script src="/js/carrito.js"></script>
+</body>
+</html>

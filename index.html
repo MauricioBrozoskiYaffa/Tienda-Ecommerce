@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mountain Bikes Store</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fontawesome/fontawesome-free-6.4.2-web/css/all.css">
+</head>
+<body>
+   <div class="wrapper">
+    <aside>
+       <header>
+        <h1 class="logo">Mountain Bikes Store</h1>
+       </header>
+       <nav>
+        <ul class="menu">
+            <li>
+                <a href="index.html">
+                        <button id="todos" class="button-menu active"><i class="fa-solid fa-house">
+                        </i>Inicio</button>
+                </a>
+            </li>
+            <li>            
+                    <button id="bicicletas" class="button-menu button-categoria active"><i class="fa-solid fa-bicycle">
+                    </i>Bicicletas</button>
+            </li>
+            <li>
+                    <button id="cascos" class="button-menu button-categoria active"><i class="fa-solid fa-helmet-un">
+                    </i>Cascos</button>
+            </li>
+            <li>
+                    <button id="remeras" class="button-menu button-categoria active"><i class="fa-solid fa-shirt">
+                    </i>Remeras</button>
+            </li>
+            <li>
+                    <button id="calzas" class="button-menu button-categoria active"><i class="fa-solid fa-socks">
+                    </i>Calzas</button>
+            </li>
+            <li>
+                    <button id="caramanolas" class="button-menu button-categoria active"><i class="fa-solid fa-bottle-water">
+                    </i>Caramañolas</button>
+            </li>
+            <li>
+                    <button id="guantes" class="button-menu button-categoria active"><i class="fa-solid fa-hand">
+                    </i>Guantes</button>
+            </li>
+            <li>
+                <a class="button-menu button-carrito active" href="carrito.html"><i class="fa-solid fa-cart-shopping">   
+                </i>Carrito<span id="numerito" class="numerito">0</span></a>
+            </li>
+        </ul>
+       </nav>
+       <footer>
+        <p class="texto-footer">© Mauricio Brozoski Yaffa 2023 - tienda online</p>
+       </footer>
+    </aside>
+    <main>
+        <h2 id="titulo-principal" class="titulo-principal">Todos los Productos</h2>
+        <div id="container-productos" class="container-productos">
+        </div>
+        
+    </main>
+   </div>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
